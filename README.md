@@ -70,7 +70,9 @@ java Client
 ## 🖥️ Sample Output
 
 🔵 Kaushik joined the chat
+
 Kaushik: Hello everyone
+
 🔴 Kaushik left the chat
 
 ---
