@@ -1,39 +1,35 @@
-# 💬 Multithreaded Chat Application (Java)
+# 💬 Multithreaded Chat Application (Java Sockets)
 
 ## 📌 Project Overview
-
-This project is a **console-based multithreaded chat application** built using Java.
-It enables multiple clients to connect to a server and communicate with each other in real-time using **Socket Programming** and **Multithreading**.
+This project is a console-based multithreaded chat application developed using Java.  
+It allows multiple clients to connect to a server and communicate with each other in real-time using socket programming and multithreading.
 
 ---
 
 ## 🚀 Features
-
-* 💬 Real-time messaging between multiple clients
-* 👥 Supports multiple users simultaneously
-* 🔄 Message broadcasting to all connected clients
-* 👤 Username-based chat system
-* 🔵 Join and 🔴 leave notifications
-* ⚡ Efficient handling of concurrent connections
+- 💬 Real-time messaging between multiple clients  
+- 👥 Multiple users can connect simultaneously  
+- 🔄 Message broadcasting to all connected clients  
+- 👤 Username-based chat system  
+- 🔵 Join and 🔴 leave notifications  
+- ⚡ Efficient handling of concurrent users  
 
 ---
 
 ## 🛠️ Technologies Used
-
-* Java
-* Socket Programming (`java.net`)
-* Multithreading
-* Input/Output Streams
+- Java  
+- Socket Programming (java.net)  
+- Multithreading  
+- I/O Streams  
 
 ---
 
 ## 🧠 Concepts Covered
-
-* Client-Server Architecture
-* TCP Socket Communication
-* Multithreading using Runnable
-* Handling multiple clients concurrently
-* Real-time communication
+- Client-Server Architecture  
+- TCP Socket Communication  
+- Multithreading using Runnable  
+- Synchronization of shared resources  
+- Real-time data transmission  
 
 ---
 
@@ -45,64 +41,61 @@ ChatApp/
 ├── Client.java
 └── ClientHandler.java
 
+
 ---
 
 ## ▶️ How to Run
 
 ### Step 1: Navigate to src folder
-
 cd src
 
-### Step 2: Compile the code
-
+### Step 2: Compile
 javac *.java
 
-### Step 3: Run the Server
-
+### Step 3: Run Server
 java Server
 
-### Step 4: Run Clients (open multiple terminals)
-
+### Step 4: Run Clients (multiple terminals)
 java Client
+
 
 ---
 
 ## 🖥️ Sample Output
 
+### Client joins:
 🔵 Kaushik joined the chat
 
+### Chat:
 Kaushik: Hello everyone
 
+### Client leaves:
 🔴 Kaushik left the chat
 
 ---
 
 ## 🎯 Learning Outcomes
-
-* Gained hands-on experience in Java networking
-* Learned how to implement multithreading
-* Built real-time communication systems
-* Improved debugging and problem-solving skills
-* Understood client-server architecture
+- Learned how to build real-time communication systems  
+- Gained hands-on experience with Java networking  
+- Understood multithreading and concurrency  
+- Improved debugging and problem-solving skills  
+- Built scalable client-server architecture  
 
 ---
 
 ## 🔗 Future Enhancements
-
-* Private messaging between users
-* GUI using Java Swing or JavaFX
-* Message timestamps
-* Chat history storage
-* Secure communication (encryption)
+- Private messaging between users  
+- GUI using Java Swing or JavaFX  
+- Message timestamps  
+- Chat history storage  
+- Encryption for secure communication  
 
 ---
 
 ## 👨‍💻 Author
-
 **Kaushik Ganesh**
 
 ---
 
 ## 📜 License
-
 This project is created for educational purposes.
